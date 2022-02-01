@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sliders",
+  "info": {
+    "singularName": "slider",
+    "pluralName": "sliders",
+    "displayName": "Slider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "details": {
+      "type": "string",
+      "required": true
+    },
+    "subheader": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    },
+    "headline_span": {
+      "type": "string"
+    },
+    "call_to_action": {
+      "type": "string",
+      "required": true
+    },
+    "call_to_action_link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
