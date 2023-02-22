@@ -15,7 +15,7 @@
     "background": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
@@ -46,6 +46,18 @@
     "light_text": {
       "type": "boolean",
       "default": false
+    },
+    "video": {
+      "type": "boolean",
+      "default": false
+    },
+    "video_file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
     }
   }
 }
